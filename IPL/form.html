@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Form</title>
+</head>
+
+<body bgcolor="beige">
+    <marquee>
+        <h1>
+            Welcome to placement form
+        </h1>
+    </marquee>
+
+    <form >
+
+        <fieldset >
+            <legend>Personal Detail</legend>
+
+            <label for="abc">Name </label>
+            <input type="text" name="username" placeholder="Enter your name" id="abc" required autofocus />
+            <br>
+
+
+            <label for="contact">Phone No. </label>
+            <input type="text" name="country-code" id="contact" value="+91">
+            <input type="text" name="username" placeholder="Enter your Phone No." id="contact" required autofocus
+                size="10" />
+            <br>
+
+            <label for="email">Email </label>
+            <input type="email" name="email" placeholder="Enter your Email" id="email">
+            <br>
+
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass"> <br>
+
+
+            <label for="xyz1">Select your Gender : </label>
+            <input type="radio" name="Gender" id="xyz1" value="Male"> Male
+            <input type="radio" name="Gender" id="xyz1" value="Female"> Female
+            <input type="radio" name="Gender" id="xyz1" value="aditya"> aditya
+            <br>
+
+
+            <label for="add">Address</label><br>
+            <textarea id="abc2" cols="20" name="comments" rows="5" placeholder="address here ->"></textarea><br />
+
+           
+        </fieldset>
+        <br>
+        
+
+        <fieldset>
+            <legend>Acdemic Detail</legend>
+        <label for="Field">Select your Branch </label>
+        <select name="Field" id="Field">
+            <option value="CS">Computer Science</option>
+            <option value="it">Information Technology</option>
+            <option value="mech">Mechincal</option>
+        </select>
+        <br>
+
+        <label for="CGPA">CGPA </label>
+        <input type="text" name="CGPA" placeholder="Enter your AVG CGPA" id="CGPA" required autofocus />
+        <br>
+
+        <label for="Courses">Course Interseted : </label>
+        <input type="checkbox" name="Course" id="Courses" value="Python"> Python
+        <input type="checkbox" name="Course" id="Courses" value="Java"> Java
+        <input type="checkbox" name="Course" id="Courses" value="C++"> C++
+        <input type="checkbox" name="Course" id="Courses" value="Js"> Js <br>
+
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>File Upload</legend>
+        <label for="exam">Upload Your Marksheet :  </label>
+        <input type="file" name="fileupload" id="exam"><br><br>
+        <label for="resume">Upload Your Marksheet :   </label>
+        <input type="file" name="fileupload" id="resume">
+    </fieldset>
+    <br>
+
+    <center>
+    <input type="submit" value="Submit" >
+    </form>
+    </center>
+
+</body>
+
+</html>
